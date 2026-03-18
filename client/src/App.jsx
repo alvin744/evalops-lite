@@ -123,7 +123,9 @@ function App() {
     <div className="app">
       <header className="header">
         <h1>EvalOps Lite</h1>
-        <p>LLM evaluation workflow with auto-scoring and human review</p>
+        <p>
+          AI Evaluation Platform for Monitoring Safety, Quality, and Model Performance
+        </p>
       </header>
 
       {config && !config.hasOpenAIKey && config.mockFallback && (
@@ -186,7 +188,13 @@ function App() {
             </div>
           )}
         </section>
-
+        <section className="card full-width">
+          <h2>Key Insight</h2>
+          <p>
+            Most failures are driven by instruction-following and unsafe responses,
+            suggesting that prompt clarity and safety guardrails are key areas for improvement.
+          </p>
+        </section>
         <section className="card full-width">
           <h2>Dashboard Summary</h2>
           {!dashboard ? (
