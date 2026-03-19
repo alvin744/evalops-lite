@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-import { openai, hasOpenAIKey } from "../openaiClient.js";
+import { openai, hasOpenAIKey } from "../openaiclient.js";
 
 dotenv.config();
 
